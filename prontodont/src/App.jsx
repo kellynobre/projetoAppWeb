@@ -101,15 +101,14 @@ export default function App() {
         <div className="btn-group">
           <a
             href="https://github.com/kellynobre/projetoAppWeb"
-            className="btn-secondary"
-          >
+            className="btn-secondary">
             GitHub Web
           </a>
           <a
             href="https://github.com/kellynobre/projetoAppMobile"
             className="btn-secondary"
           >
-            GitHub Mobile
+          GitHub Mobile
           </a>
         </div>
       </section>
