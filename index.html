@@ -1,93 +1,25 @@
-import React from "react";
-import { FaTooth, FaLock, FaCalendarAlt, FaDatabase, FaFileMedical } from "react-icons/fa";
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-export default function App() {
-  return (
-    <div className="font-sans bg-gray-50 text-gray-800">
-      {/* Hero */}
-      <section className="bg-blue-600 text-white text-center py-20">
-        <h1 className="text-5xl font-bold">ProntOdont</h1>
-        <p className="mt-4 text-lg">Gestão odontológica moderna e segura em um único app</p>
-        <a
-          href="https://prontodont.anakelly.grupo2.mobile.ufersa.dev.br"
-          className="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-200"
-        >
-          Acesse agora
-        </a>
-      </section>
+    <title>ProntOdont</title>
+    <meta
+      name="description"
+      content="ProntOdont"
+    />
 
-      {/* Problema */}
-      <section className="max-w-4xl mx-auto py-16 px-6 text-center">
-        <h2 className="text-3xl font-semibold mb-6">O problema</h2>
-        <p>
-          Muitos dentistas ainda utilizam fichas em papel ou sistemas limitados, 
-          sem integração entre prontuários, exames e agendamentos. Isso aumenta 
-          riscos de perda de dados e dificulta o acompanhamento dos pacientes.
-        </p>
-      </section>
-
-      {/* Solução */}
-      <section className="bg-gray-100 py-16 px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-8">Nossa solução</h2>
-          <p>
-            O ProntOdont centraliza todas as informações da clínica em um só lugar. 
-            Organize prontuários por especialidade, emita documentos digitais e gerencie consultas com praticidade e segurança.
-          </p>
-        </div>
-      </section>
-
-      {/* Funcionalidades */}
-      <section className="max-w-6xl mx-auto py-16 px-6">
-        <h2 className="text-3xl font-semibold text-center mb-12">Funcionalidades</h2>
-        <div className="grid md:grid-cols-3 gap-8 text-center">
-          <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg">
-            <FaLock className="mx-auto text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Autenticação segura</h3>
-            <p>Gerenciamento de acesso via Amazon Cognito, restrito a dentistas.</p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg">
-            <FaFileMedical className="mx-auto text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Prontuários digitais</h3>
-            <p>Organização clínica completa por especialidade odontológica.</p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg">
-            <FaCalendarAlt className="mx-auto text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Agendamentos</h3>
-            <p>Controle de consultas integrado ao histórico do paciente.</p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg">
-            <FaDatabase className="mx-auto text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Armazenamento seguro</h3>
-            <p>Exames e documentos clínicos salvos no Amazon S3 e DynamoDB.</p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg">
-            <FaTooth className="mx-auto text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Foco em odontologia</h3>
-            <p>Odontograma exclusivo para odontopediatria e suporte a várias especialidades.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="bg-blue-600 text-white text-center py-20">
-        <h2 className="text-3xl font-bold mb-6">Experimente o ProntOdont</h2>
-        <p className="mb-8">Mais organização, segurança e praticidade para sua clínica</p>
-        <div className="space-x-4">
-          <a
-            href="https://github.com/kellynobre/projetoAppWeb"
-            className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-200"
-          >
-            GitHub Web
-          </a>
-          <a
-            href="https://github.com/kellynobre/projetoAppMobile"
-            className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-200"
-          >
-            GitHub Mobile
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}
+    <!-- Fonte do Google opcional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans">
+    <noscript>Você precisa habilitar o JavaScript para rodar este app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
