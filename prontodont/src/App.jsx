@@ -97,7 +97,7 @@ export default function App() {
       {/* CTA */}
       <section className="cta">
         <h2>Experimente o ProntOdont</h2>
-        <p>Mais organização, segurança e praticidade para sua clínica</p>
+        <p>Mais organização, segurança e praticidade para sua clínica.</p>
         <div className="btn-group">
           <a
             href="https://github.com/kellynobre/projetoAppWeb"
@@ -123,7 +123,3 @@ export default function App() {
     </div>
   );
 }
-
-
-
-
